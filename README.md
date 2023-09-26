@@ -19,7 +19,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 osTicket Installation Files
+
 Azure Virtual Machine with 4 VCPUs
+
 Heidi SQL
 
 <h2>Installation Steps</h2>
