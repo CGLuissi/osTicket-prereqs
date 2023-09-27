@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 osTicket Installation Files
 
-Azure Virtual Machine with 4 VCPUs
+Azure Virtual Machine with a minimum of 2 VCPUs and 16GBs of memory
 
 Heidi SQL
 
