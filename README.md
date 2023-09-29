@@ -65,29 +65,19 @@ Heidi SQL
 <br />
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Step 5 127 0 0 1](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/7cb87c16-a464-4d19-82a6-505f43a6d7ed)
+
+6.) To test that Internet Information Services was configured correctly, open up your preferred browser and search 127.0.0.1 in the address bar. If the installation was a success, the IIS webpage should appear.
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Step 6 IIS](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/0348eafd-21b3-409f-9463-b10bb994041a)
+
+7.) From the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) provided, install PHPManagerForIIS_V1.5.0.msi and continue through the installation wizard. Next, download rewrite_amd64_en-US.msi. Once again, continue tothe installation wizard and accept the terms when prompted.
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+
+8.) 
 </p>
 <br />
 
