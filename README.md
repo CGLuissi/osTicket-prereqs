@@ -72,14 +72,18 @@ Heidi SQL
 
 ![Step 6 IIS](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/0348eafd-21b3-409f-9463-b10bb994041a)
 
-7.) From the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) provided, install PHPManagerForIIS_V1.5.0.msi and continue through the installation wizard. Next, download rewrite_amd64_en-US.msi. Once again, continue tothe installation wizard and accept the terms when prompted.
+7.) From the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) provided, install PHPManagerForIIS_V1.5.0.msi and continue through the installation wizard. Next, download rewrite_amd64_en-US.msi. Once again, continue to the installation wizard and accept the terms when prompted.
+
+![Step 7](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/5360a3cf-9f26-45c9-9e4c-21304cf39650)
+![Step 7 1](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/ccc78fa2-8e9c-4449-b5ab-eadcebf53c5e)
 
 
 
-
-8.) 
+8.) Open up File Explorer and create a new folder in the C: drive named "PHP", and download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip). Locate the PHP 7.3.8 file and right click to find the Extract All option- select it and click Browse. You will unzip the PHP file into the new PHP folder, and it will slowly move the contents over. 
 </p>
 <br />
+
+9.)Back in the Installation Files Google Drive, download VC_redist.x86.exe and mysql-5.5.62-win32.msi. Launch the mySQL installation and run the installer. Typical Setup-> Launch Configuration Wizard after Install-> Standard Configuration-> Install as Windows Service-> Click Next. Create a password, then click Next. Select Execute and wait for the settings to process; when this is complete, click Finish.
 
 
 <p>
