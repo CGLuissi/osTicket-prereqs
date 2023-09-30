@@ -111,13 +111,11 @@ Heidi SQL
 
 14.) The osTicket Installer homepage will be shown, meaning that our installation is almost complete! However, we can observe that a few important extensions have not been enabled. We will enable these in IIS by opening PHP Manager again and selecting "enable or disable an extension". 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+![Step 15](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/03bb6c30-630c-479f-89e5-e960ef84088b)
+
+
+15.) The 3 extensions we will enable are php_imap.dll, php_intl.dll, and php_opcache.dll. Select each one and right click to see the enable option.
 
 
 <p>
