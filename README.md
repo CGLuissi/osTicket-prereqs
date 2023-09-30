@@ -100,17 +100,16 @@ Heidi SQL
 
 12.) Download the osTicket zip file from the Installation Files folder and open up another File Explorer window. In this new window, click on This PC and head to the C: drive; open it and locate the inetpub folder. Within inetpub, open the wwwroot folder and copy the "upload" folder by dragging it from the osTicket file explorer window to the inetpub window. When the files are completely copied over, rename the upload folder to osTicket then restart IIS again. 
 
+![Step 13](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/917ba40a-98ea-4ffe-849c-3f90b9e718a7)
+
+13.) In IIS, click on the name of your VM on the left hand side, then Sites-> Default Web Site-> osTicket. Now click on Browse *:80(http).
+
+![Step 14](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/f48bb03e-5667-4a62-a59b-73f409f1a973)
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 
+14.) The osTicket Installer homepage will be shown, meaning that our installation is almost complete! However, we can observe that a few important extensions have not been enabled. We will enable these in IIS by opening PHP Manager again and selecting "enable or disable an extension". 
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
