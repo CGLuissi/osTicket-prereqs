@@ -83,17 +83,15 @@ Heidi SQL
 </p>
 <br />
 
-9.)Back in the Installation Files Google Drive, download VC_redist.x86.exe and mysql-5.5.62-win32.msi. Launch the mySQL installation and run the installer. Typical Setup-> Launch Configuration Wizard after Install-> Standard Configuration-> Install as Windows Service-> Click Next. Create a password, then click Next. Select Execute and wait for the settings to process; when this is complete, click Finish.
+9.)Back in the Installation Files Google Drive, download VC_redist.x86.exe and mysql-5.5.62-win32.msi. Launch the mySQL installation and run the installer. Click these in order: Typical Setup-> Launch Configuration Wizard after Install-> Standard Configuration-> Install as Windows Service-> Click Next. Create a password, then click Next. Select Execute and wait for the settings to process; when this is complete, click Finish.
 
+![Step 8](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/4ad7aaa0-01d9-4961-8731-ba34788fbac4)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+10.) In the taskbar search box, search for Internet Information Services Manager and right click to run as an administrator. Navigate to the PHP Manager icon and double click it. Under PHP Setup, click on Register new PHP version. 
 
+ ![Step 10](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/eab53538-eeff-4536-96c9-8fc44dcdeee2)
+
+11.) Click the 3 dots and search for the PHP folder within the C drive. Within the PHP folder select the php-cgi file.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
