@@ -115,7 +115,7 @@ Heidi SQL
 ![Step 15](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/03bb6c30-630c-479f-89e5-e960ef84088b)
 
 
-15.) The 3 extensions we will enable are php_imap.dll, php_intl.dll, and php_opcache.dll. Select each one and right click to see the enable option.
+15.) The 3 extensions we will enable are php_imap.dll, php_intl.dll, and php_opcache.dll. Select each one and right click to see the enable option. Refreshing the osTicket page should show that our changes have gone into effect, though the opcache extension will still show as offline.
 
 
 <p>
