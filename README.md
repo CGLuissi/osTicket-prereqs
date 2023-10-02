@@ -87,13 +87,13 @@ Heidi SQL
 
 ![Step 8](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/4ad7aaa0-01d9-4961-8731-ba34788fbac4)
 
-10.) In the taskbar search box, search for Internet Information Services Manager and right click to run as an administrator. Navigate to the PHP Manager icon and double click it. Under PHP Setup, click on Register new PHP version. 
+10.) In the taskbar search box, search for Internet Information Services Manager and right click to run as an administrator. Navigate to the PHP Manager icon and double click it. Under PHP Setup, click on Register new PHP version. Click the 3 dots and search for the PHP folder within the C drive; inside the folder select the php-cgi file.
 
  ![Step 10](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/eab53538-eeff-4536-96c9-8fc44dcdeee2)
  
 ![Step 11](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/a315c917-1781-425a-aaf4-339b1cc5c03c)
 
-11.) Click the 3 dots and search for the PHP folder within the C drive. Within the PHP folder select the php-cgi file. Put these changes in effect by restarting the server.
+11.) Put these changes in effect by restarting the server.
 
 ![Step 12](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/cdabc83a-db41-455a-af7a-dacd09cf759f)
 
@@ -117,56 +117,40 @@ Heidi SQL
 
 15.) The 3 extensions we will enable are php_imap.dll, php_intl.dll, and php_opcache.dll. Select each one and right click to see the enable option. Refreshing the osTicket page should show that our changes have gone into effect, though the opcache extension will still show as offline.
 
+![Step 16](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/168a8ea2-e578-45fe-9e43-ada72b17eaa3)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Step 17](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/cc841609-1073-4086-a17a-f2ffb35912a4)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+ 
+16.) In file explorer, go back to the osTicket subfolder by following this path: Windows(C:)-> inetpub-> wwwroot->osTicket. Select the "include" folder and find the file named "ost-sampleconfig.php";rename this file to "ost-config.php". Right click the re-named file and select properties, then security, then "Advanced". We will now disable inheritances by selecting "remove all inherited permissions from this object". We're going to replace the old permissions with new ones by clicking "Add" then "Select a principal" and when the text box appearss, type "Everyone". Give Everyone complete permissions now by selecting Full Control. Apply the changes by clicking Apply then OK, then OK again; the window will close when the settings are applied.  
+
+17.) Return to the osTicket homepage on your browser and proceed with the setup process by clicking continue on the bottom of the page and filling out the settings. For now don't worry about the Database Settings as we have not connected one yet.
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Step 18](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/e67f9b59-d602-4c96-a7dd-1e40d6098f2d)
+
+![Step 19](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/1d33dd1a-2157-4b3a-a2fc-9afefdda35c1)
+
+![Step 20](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/ab123d9b-05d4-4bfc-9c23-852a074f83eb)
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+18.) We are now going to download HeidiSQL from the Installation Files and create a database connection. When HeidiSQL downloads, select the installation file and click "Next" until you reach the Install prompt and select it. The Session Manager will launch now and we will select the green Create New Session button on the bottom left. Create a new User and Password; for the sake of simplicity, root for the Username and Password1 as the password should be fine. Click Open and now click on the filter on the left side that says "Unnamed". Right click to see the options list and select "create new" then "database". Name the database "osTicket" then click Ok. Back in the osTicket signup page, fill out the database details with the newly created database name, username, and password. You can now click Install.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Step 21](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/6685387c-2e21-4925-b23a-bd2086c9191a)
+
+![Step 22](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/a56e86d7-8fac-47e7-8f20-f232b236f0ab)
+
+![Step 23](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/af89025a-0ec9-4a68-909c-eb3c34023b8d)
+
+19.) Before we test out our finished project, we have to clean it up by going back to the C:inetpub\wwwroot\osTicket path and deleting the "setup" folder inside. We must also change the permissions of the ost-config.php file; to find it again, follow this path C:\inetpub\wwwroot\osTicket\include\ ost-config.php. Right click, select properties, then security, then Advanced, then select the name Everyone. Select Edit, and remove all permissions except for Read. Click Apply then OK.
+
+![Step 24](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/938ee49c-c24f-4d5b-aa8b-c8ca0dd6632d)
+
+
+20.) The setup is now complete and you will be able to head to the Agent login page and see the results of your hard work. 
+
+EXTRA: If you'd like to continue on and create Users and Tickets you can do so, but if you want finish up here, go back to the Azure portal and delete your Resource Group. If not deleted, you will be charged at a fixed rate hourly as long as the resource group and VM are active.
 
 
 
