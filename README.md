@@ -41,7 +41,7 @@ Heidi SQL
 
 ![STEP 2 RDP alt](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/10826ddb-dc02-4e58-b666-4f0e9bfea6d5)
 
-3.) Enter the public IP address and click connect. The program will attempt to connect to the public IP, but will need your Username and Password. Select More choices and enter your info. When prompted to verify, select Yes. 
+3.) Enter the public IP address and click connect. The program will attempt to connect to the public IP, but will need your Username and Password. Select More choices and enter your info. When prompted to verify, select Yes. Once inside the VM, allow your PC to become discoverable on your network by selecting Yes on the popup that appears.
 
 </p>
 <br />
@@ -51,7 +51,7 @@ Heidi SQL
 ![Step 4 Turn Features on](https://github.com/CGLuissi/osTicket-prereqs/assets/143234913/cc73bc90-e007-4c23-a869-68b56b1cf284)
 
  
-4.) Inside the VM, allow your PC to become discoverable on your network by selecting Yes on the popup that appears. Now, open up control panel and select Programs, then  click Turn Windows Features on or off.
+4.) Now, open up control panel and select Programs, then  click Turn Windows Features on or off.
 
 </p>
 <br />
