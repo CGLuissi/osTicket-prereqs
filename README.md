@@ -18,11 +18,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-osTicket Installation Files
+[osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 Azure Virtual Machine with a minimum of 2 VCPUs and 16GBs of memory
 
-Heidi SQL
 
 <h2>Installation Steps</h2>
 
